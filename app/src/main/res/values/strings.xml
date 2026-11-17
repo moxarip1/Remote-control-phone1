@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">HomeVault Remote</string>
+
+    <!-- Modes & Navigation -->
+    <string name="mode_selection_title">HomeVault Remote</string>
+    <string name="mode_selection_subtitle">Your personal self-hosted cloud storage</string>
+    <string name="mode_client_title">Remote Client</string>
+    <string name="mode_client_desc">Connect to your home phone storage from anywhere</string>
+    <string name="mode_server_title">This phone is Home Server</string>
+    <string name="mode_server_desc">Turn this phone into an encrypted personal storage server</string>
+
+    <!-- Bottom Nav -->
+    <string name="nav_home">Home</string>
+    <string name="nav_files">Files</string>
+    <string name="nav_transfers">Transfers</string>
+    <string name="nav_storage">Storage</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Server Status & Actions -->
+    <string name="server_online">SERVER ONLINE</string>
+    <string name="server_offline">SERVER OFFLINE</string>
+    <string name="notification_channel_server">HomeVault Server</string>
+    <string name="notification_channel_transfers">File Transfers</string>
+    <string name="notification_server_running">HomeVault is running</string>
+    <string name="notification_action_stop">Stop Server</string>
+    <string name="notification_action_open">Open App</string>
+
+    <!-- User-friendly Errors -->
+    <string name="err_access_denied">Access denied. Please reconnect the Home Storage.</string>
+    <string name="err_connection_lost">Connection lost. Retrying...</string>
+    <string name="err_invalid_pin">Incorrect PIN or pairing code.</string>
+    <string name="err_rate_limited">Too many failed attempts. Please wait a moment.</string>
+    <string name="err_path_forbidden">Invalid folder path requested.</string>
+    <string name="err_checksum_mismatch">Transfer verification failed. Retrying...</string>
+</resources>

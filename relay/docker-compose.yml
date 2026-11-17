@@ -1,0 +1,14 @@
+services:
+  homevault-relay:
+    build: .
+    container_name: homevault-relay
+    restart: unless-stopped
+    ports:
+      - "8787:8787"
+    environment:
+      - PORT=8787
+      - HOST=0.0.0.0
+      - RELAY_MAX_BODY_BYTES=20971520
+      - RELAY_REQUEST_TIMEOUT_MS=45000
+      - RELAY_RATE_LIMIT_MAX=180
+      - RELAY_SHARED_SECRET=${RELAY_SHARED_SECRET:-}

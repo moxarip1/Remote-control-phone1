@@ -1,0 +1,6 @@
+{
+  "name": "HomeVault Remote",
+  "description": "Self-hosted Android personal home storage server and encrypted remote file manager with LAN discovery, modular internet relay, chunked resumable transfers, and zero-trust security.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

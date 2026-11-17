@@ -1,0 +1,15 @@
+{
+  "name": "homevault-relay",
+  "version": "1.0.0",
+  "description": "Self-hosted modular WebSocket-to-HTTP relay for HomeVault Remote",
+  "main": "src/relayServer.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test test/relay.test.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT"
+}
