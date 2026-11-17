@@ -92,17 +92,17 @@ Put Nginx, Caddy, or Cloudflare Tunnel in front of port `8787` for TLS terminati
 
 ---
 
-## Building the APK & Running Tests
+## Prebuilt APK & Local Builds
+
+### Ready-to-Install Debug APK
+A prebuilt debug APK is available directly at **`debug/debug.apk`** and is automatically updated whenever a local Gradle debug build runs.
 
 ### Local Gradle Build & Tests
 ```bash
 gradle :app:testDebugUnitTest
 gradle :app:assembleDebug
 ```
-The debug APK is generated at `app/build/outputs/apk/debug/app-debug.apk`.
-
-### GitHub Actions (No PC Required)
-Push to `main` / `master` or trigger **Actions → Build HomeVault Remote APK → Run workflow**. The workflow in `.github/workflows/build.yml` runs unit & Robolectric tests, builds the debug APK, and uploads **`HomeVault-debug.apk`** as a downloadable artifact.
+The debug APK is generated at `app/build/outputs/apk/debug/app-debug.apk` and mirrored to `debug/debug.apk`.
 
 ---
 
